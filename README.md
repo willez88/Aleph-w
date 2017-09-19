@@ -26,3 +26,5 @@ Rápido script para instalar alephw-1.8a
     esa instrucción genera el ejecutable de no haber errores.
 
     Para más información wpaez@cenditel.gob.ve
+
+http://webdelprofesor.ula.ve/ingenieria/lrleon/aleph/html/index.html
