@@ -1,7 +1,7 @@
 # Aleph-w
 Rápido script para instalar alephw-1.8a
 
-#Este tutorial esta hecho para instalar alephw-1.8a
+# Este tutorial esta hecho para instalar alephw-1.8a
 
 1.  Intalar clang++-5.0
 
