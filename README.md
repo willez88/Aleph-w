@@ -1,8 +1,6 @@
 # Aleph-w
 Rápido script para instalar alephw-1.8a
 
-## Este tutorial esta hecho para instalar alephw-1.8a
-
 - Intalar clang++-5.0
 
 - El archivo install.sh esta configurado para instalar las librerias en la distribución Ubuntu y Debian
