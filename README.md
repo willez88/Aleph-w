@@ -3,7 +3,7 @@ Rápido script para instalar alephw-1.8a
 
 -   Intalar clang++-5.0
 
--   El archivo install.sh esta configurado para instalar las librerias en la distribución Ubuntu y Debian
+-   El archivo install.sh esta configurado para instalar las librerias en la distribución Ubuntu
 
     En caso de tener otra distrubución comentar la línea 18 y luego hacer uno y solo uno de estos pasos:
 
