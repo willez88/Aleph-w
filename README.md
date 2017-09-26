@@ -1,9 +1,11 @@
 # Aleph-w
 Rápido script para instalar alephw-1.8a
 
--   Intalar clang++-5.0
+-   Para usar alephw-1.8a_ubuntu instalar clang-5.0
 
--   El archivo install.sh esta configurado para instalar las librerias en la distribución Ubuntu
+-   Para usar alephw-1.8a_debian instalar clang-4.0
+
+-   El archivo install.sh esta configurado para instalar las librerias en la distribución seleccionada
 
     En caso de tener otra distrubución comentar la línea 18 y luego hacer uno y solo uno de estos pasos:
 
