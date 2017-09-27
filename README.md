@@ -1,9 +1,9 @@
 # Aleph-w
 Rápido script para instalar alephw-1.8a
 
--   El archivo install_ubuntu.sh esta configurado para instalar todo lo que Aleph-w necesita la última versión de Ubuntu
+-   El archivo install_ubuntu.sh esta configurado para instalar todo lo que Aleph-w necesita para la última versión de Ubuntu
 
--   El archivo install_debian.sh esta configurado para instalar todo lo que Aleph-w necesita la última versión de Debian
+-   El archivo install_debian.sh esta configurado para instalar todo lo que Aleph-w necesita para la última versión de Debian
 
 -   Entrar en la carpeta desde el terminal
 
