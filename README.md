@@ -1,43 +1,35 @@
 # Aleph-w
 Rápido script para instalar alephw-1.8a
 
--   Para usar alephw-1.8a_ubuntu instalar clang-5.0
+-   El archivo install_ubuntu.sh esta configurado para instalar todo lo que Aleph-w necesita la última versión de Ubuntu
 
--   Para usar alephw-1.8a_debian instalar clang-4.0
-
--   El archivo install.sh esta configurado para instalar las librerias en la distribución seleccionada
-
-    En caso de tener otra distrubución comentar la línea 18 y luego hacer uno y solo uno de estos pasos:
-
-        Descomentar la línea 12 si posee Linux Mint
-
-        Descomentar la línea 15 si posee Linux Fedora
-
-    En caso de tener otra distrubición agregar el comando respectivo en la línea 21 siguiendo la estructura
+-   El archivo install_debian.sh esta configurado para instalar todo lo que Aleph-w necesita la última versión de Debian
 
 -   Entrar en la carpeta desde el terminal
 
-    Dar permisos de ejecuión al archivo install.sh
+-   Dar permisos de ejecuión al archivo install.sh
 
-    ~$ chmod 777 install.sh
+        ~$ chmod 777 install_XXX.sh
 
-    Ejecutar como super usuario
+-   Ejecutar como super usuario
 
-    ~# ./install.sh
+        ~# ./install_xxx.sh
 
-    Eso instala alephw-1.8a y todas las librerias que necesita para funcionar
+-   Eso instala alephw-1.8a
 
-    El directorio de instalación de aleph es: /opt/Aleph-w/alephw-1.8a/aleph
+-   El directorio de instalación de aleph es: /opt/Aleph-w/alephw-1.8a/aleph
 
-    El Makefile es genérico para compilar los códigos ya está configurado
+-   Makefile es un archivo genérico ya configurado para compilar los códigos
 
-    Para compilar: make seguido del archivo.C sin poner la extención
+-   Para compilar:
 
-    por ejemplo: se quiere compilar hola.C
+        make seguido del archivo.C sin poner la extención
 
-    ~$ make hola
+        por ejemplo: se quiere compilar hola.C
 
-    esa instrucción genera el ejecutable de no haber errores.
+        ~$ make hola
+
+        Esa instrucción genera el ejecutable
 
 -   Para más información
 
