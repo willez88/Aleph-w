@@ -31,6 +31,8 @@ Rápido script para instalar alephw-1.8a
 
         Esa instrucción genera el ejecutable
 
+-   Dentro del directorio de instalación de Aleph-w, aquellos archivos que tengan el prefijo "test" son códigos de ejemplos listos para probar
+
 -   Para más información
 
         wpaez@cenditel.gob.ve
