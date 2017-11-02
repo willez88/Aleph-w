@@ -20,7 +20,7 @@ OPT = -DNDEBUG -D_GLIBCXX__PTHREADS -O3 -std=c++14 $(WARN)
 INCLUDE = -I. -I $(ALEPH) 
 
 LIBS = -L $(ALEPH) \
-       -lAleph -lc -lm -lgsl -lgslcblas -lgmp -lmpfr -lasprintf -lpthread
+       -lAleph -lc -lm -lgsl -lgslcblas -lgmp -lmpfr -lpthread
 
 # Extension del programa usada, .C, .cpp, .cxx, etc...
 EXT = .C
