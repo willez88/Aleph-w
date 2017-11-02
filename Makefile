@@ -5,8 +5,8 @@
 # Direcciones de la instalacion al utilizar el script install.sh
 ALEPH = /opt/Aleph-w/alephw-1.8a/aleph
 
-CLANGPATH=/usr/bin
-CXX = $(CLANGPATH)/clang++-5.0
+#CLANGPATH=/usr/bin
+CXX = g++
 
 OPT=-D_GLIBCXX__PTHREADS -O3 -DNDEBUG -std=c++14 $(WARN)
 
