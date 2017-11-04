@@ -5,8 +5,8 @@
 # Direcciones de la instalacion al utilizar el script install.sh
 ALEPH = /opt/Aleph-w/alephw-1.8a/aleph
 
-#CLANGPATH=/usr/bin
-CXX = g++
+CLANGPATH=/usr/bin
+CXX = clang++-5.0
 
 OPT=-D_GLIBCXX__PTHREADS -O3 -DNDEBUG -std=c++14 $(WARN)
 
@@ -19,6 +19,7 @@ OPT = -DNDEBUG -D_GLIBCXX__PTHREADS -O3 -std=c++14 $(WARN)
 
 INCLUDE = -I. -I $(ALEPH) 
 
+# Ya no se soporta en g++ y clang el parámetro: -lasprintf
 LIBS = -L $(ALEPH) \
        -lAleph -lc -lm -lgsl -lgslcblas -lgmp -lmpfr -lpthread
 

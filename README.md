@@ -1,7 +1,7 @@
 # Aleph-w
-Rápido script para instalar alephw-1.8a
+Rápido script para instalar alephw-1.8a usando el compilador clang-5.0. También sirve con g++ haciendo las configuraciones necesarias
 
--   El archivo install.sh esta configurado para instalar todo lo que Aleph-w necesita para Ubuntu 17.10 y Debian 9 Stretch
+-   El archivo install.sh esta configurado para instalar todo lo que Aleph-w necesita para funcionar en Ubuntu 17.10 y Debian 9 Stretch
 
 -   Entrar en la carpeta desde el terminal
 
