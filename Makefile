@@ -6,7 +6,8 @@
 ALEPH = /opt/Aleph-w/alephw-1.8a/aleph
 
 CLANGPATH=/usr/bin
-CXX = clang++
+CXX = g++
+#CXX = clang++
 
 OPT=-D_GLIBCXX__PTHREADS -O3 -DNDEBUG -std=c++14 $(WARN)
 

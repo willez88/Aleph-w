@@ -5,7 +5,7 @@
 # Instala dependencias
 
 # Para Debian y Ubuntu
-apt install -y build-essential m4 xutils-dev libx11-dev gettext libgsl0-dev libgmp-dev libmpfr-dev clang; \
+apt install -y build-essential m4 xutils-dev libx11-dev gettext libgsl0-dev libgmp-dev libmpfr-dev; \
 
 # Carpeta raiz de Aleph-w
 mkdir /opt/Aleph\-w; \
