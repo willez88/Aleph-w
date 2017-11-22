@@ -5,11 +5,11 @@ Rápido script para instalar alephw-1.8a usando el compilador g++
 
 -   Entrar en la carpeta desde el terminal
 
--   1. Dar permisos de ejecuión al archivo install.sh
+-   1 Dar permisos de ejecuión al archivo install.sh
 
         ~$ chmod 777 install.sh
 
--   2. Ejecutar como super usuario
+-   2 Ejecutar como super usuario
 
         ~# ./install.sh
 
