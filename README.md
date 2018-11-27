@@ -1,7 +1,7 @@
 # Aleph-w
-Rápido script para instalar alephw-1.8a usando el compilador g++
+Rápido script para instalar alephw-1.9a usando el compilador g++
 
--   El archivo install.sh esta configurado para instalar todo lo que Aleph-w necesita para funcionar en Ubuntu 17.10 y Debian 9 Stretch
+-   El archivo install.sh esta configurado para instalar todo lo que Aleph-w necesita para funcionar en Ubuntu 18.04 y Debian 9 Stretch
 
 -   Entrar en la carpeta desde el terminal
 
@@ -15,11 +15,9 @@ Rápido script para instalar alephw-1.8a usando el compilador g++
 
 -   Eso instala Aleph-w
 
--   El directorio de instalación de aleph es: /opt/Aleph-w/alephw-1.8a/aleph
+-   El directorio de instalación de aleph es: /opt/Aleph-w/alephw-1.8a/Aleph-w
 
 -   Makefile es un archivo genérico ya configurado para compilar los códigos
-
-        Si se usa el compilador clang comentar la línea 9 y descomentar la línea 10
 
 -   Para compilar:
 
@@ -31,30 +29,10 @@ Rápido script para instalar alephw-1.8a usando el compilador g++
 
         Esa instrucción genera el ejecutable
 
--   Dentro del directorio de instalación de Aleph-w, aquellos archivos que tengan el prefijo "test" son códigos de ejemplos listos para probar
-
-Instalar alephw-1.8a usando el compilador clang
-
--   El archivo Imakefile que se encuentra en alephw-1.8a.tbz ya está configurado con la última versión estable: clang-5.0
-
--   Instalar clang en Ubuntu
-
-        ~# apt install clang-5.0
-
--   Para instalar clang-5.0 en Debian seguir los pasos que están en la siguiente dirección: http://apt.llvm.org/
-
--   Modificar el archivo Imakefile de la siguiente manera
-
-        comentar las líneas 10 y 21
-
-        Descomentar las líneas 7, 12, 13, 14, 15 y 20
-
--   Cuando se guarde el archivo Imakefile el gestor de archivadores pedirá actualizar. Le decimos que si
-
--   Ejecutamos los pasos 1 y 2 y con eso se instala Aleph-w
+-   Dentro del directorio de instalación de Aleph-w, en la carpeta Examples hay programas listos para compilar
 
 -   Para más información
 
-        wpaez@cenditel.gob.ve
+        wpaez at cenditel.gob.ve
 
         http://webdelprofesor.ula.ve/ingenieria/lrleon/aleph/html/index.html

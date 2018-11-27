@@ -1,13 +1,11 @@
 # Makefile generico para compilar con Aleph-w
 
-# Autor: William Páez (wpaez@cenditel.gob.ve)
+# Autor: William Páez (wpaez at cenditel.gob.ve)
 
 # Direcciones de la instalacion al utilizar el script install.sh
-ALEPH = /opt/Aleph-w/alephw-1.8a/aleph
+ALEPH = /opt/Aleph-w/alephw-1.9a/Aleph-w
 
-CLANGPATH=/usr/bin
 CXX = g++
-#CXX = clang++
 
 OPT=-D_GLIBCXX__PTHREADS -O3 -DNDEBUG -std=c++14 $(WARN)
 
