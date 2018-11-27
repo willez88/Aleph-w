@@ -15,7 +15,7 @@ Rápido script para instalar alephw-1.9a usando el compilador g++
 
 -   Eso instala Aleph-w
 
--   El directorio de instalación de aleph es: /opt/Aleph-w/alephw-1.8a/Aleph-w
+-   El directorio de instalación de aleph es: /opt/Aleph-w/alephw-1.9a/Aleph-w
 
 -   Makefile es un archivo genérico ya configurado para compilar los códigos
 
